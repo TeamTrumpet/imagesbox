@@ -3,7 +3,7 @@ MAINTAINER Wyatt Johnson <wyatt@trumpet.ca>
 
 RUN apt-get update
 
-RUN wget http://downloads.sourceforge.net/wkhtmltopdf/wkhtmltox-0.12.2.1_linux-jessie-amd64.deb
+RUN wget http://download.gna.org/wkhtmltopdf/0.12/0.12.2.1/wkhtmltox-0.12.2.1_linux-jessie-amd64.deb
 
 RUN apt-get install -y iso-codes libatk1.0-0 libatk1.0-data libdrm-intel1 libdrm-nouveau2 \
   libdrm-radeon1 libdrm2 libegl1-mesa libegl1-mesa-drivers libelf1 libfontenc1 \
